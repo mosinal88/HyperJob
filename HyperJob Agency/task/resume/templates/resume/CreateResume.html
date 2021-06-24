@@ -1,0 +1,5 @@
+<form method="post">
+    {% csrf_token %}
+    <table>{{ create_resume.as_table }}</table>
+    <button type="submit">Submit</button>
+</form>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HyperJob</title>
+</head>
+<body>
+    {% for r in resume %}
+    <div>
+        {{ r.author }}: {{ r.description }}
+    </div>
+    {% endfor %}
+</body>
+</html>
